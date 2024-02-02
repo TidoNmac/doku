@@ -1,9 +1,5 @@
 sudo apt update -y
-sudo apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
-git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
-cd ccminer
-chmod +x build.sh
-chmod +x configure.sh
-chmod +x autogen.sh
-./build.sh
-./ccminer -a verus -o stratum+tcp://sg.vipor.net:5040 -u RLBpgHEW2R1XxoG5meK6mA82BbXCRCLWGr.p -p x -t 8
+wget
+https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
+tar -xvf hellminer_cpu_linux.tar.gz
+./hellminer -c stratum+tcp://eu.luckpool.net:3957 -u RLBpgHEW2R1XxoG5meK6mA82BbXCRCLWGr.pepe -p x --cpu 4
